@@ -1,0 +1,300 @@
+﻿Compilación iniciada a las 19/04/2017 10:54:53.
+     1>Proyecto "C:\Users\ines\Documents\Visual Studio 2010\Projects\servidor_udp\servidor_udp\servidor_udp.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Aplicando tarea Touch a "Debug\servidor_udp.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\ines\Desktop\T\lib\2010 /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib" /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt servidor_udp.cpp
+         servidor_udp.cpp
+     1>c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\protocolo.h(9): error C2146: error de sintaxis : falta ';' delante del identificador 'wVersionRequested'
+     1>c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\protocolo.h(9): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\protocolo.h(9): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\protocolo.h(10): error C2146: error de sintaxis : falta ';' delante del identificador 'wsaData'
+     1>c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\protocolo.h(10): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\protocolo.h(10): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\trackerpod.h(9): error C2065: 'NULL' : identificador no declarado
+     1>c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\trackerpod.h(9): error C2864: 'CTrackerPod::g_pTrackerPod' : sólo se pueden inicializar miembros de datos integrales estáticos const dentro de una clase
+     1>c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\trackerpod.h(10): error C2146: error de sintaxis : falta ';' delante del identificador 'g_hwnd'
+     1>c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\trackerpod.h(10): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\trackerpod.h(10): error C2065: 'NULL' : identificador no declarado
+     1>c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\trackerpod.h(10): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\trackerpod.h(10): error C2864: 'CTrackerPod::g_hwnd' : sólo se pueden inicializar miembros de datos integrales estáticos const dentro de una clase
+     1>c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\trackerpod.h(38): error C2061: error de sintaxis : identificador 'HWND'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h(155): error C2378: 'WORD' : nueva definición; no se puede sobrecargar el símbolo con typedef
+                 c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\protocolo.h(9) : vea la declaración de 'WORD'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h(164): error C2143: error de sintaxis : falta ';' delante de '*'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h(164): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h(164): error C2378: 'WORD' : nueva definición; no se puede sobrecargar el símbolo con typedef
+                 c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\protocolo.h(9) : vea la declaración de 'WORD'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h(164): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h(165): error C2143: error de sintaxis : falta ';' delante de '*'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h(165): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h(165): error C2378: 'WORD' : nueva definición; no se puede sobrecargar el símbolo con typedef
+                 c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\protocolo.h(9) : vea la declaración de 'WORD'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\windef.h(165): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(494): error C2146: error de sintaxis : falta ';' delante del identificador 'Group'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(494): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(494): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(506): error C2146: error de sintaxis : falta ';' delante del identificador 'Group'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(506): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(506): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(507): error C2146: error de sintaxis : falta ';' delante del identificador 'Reserved'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(507): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(507): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(532): error C2146: error de sintaxis : falta ';' delante del identificador 'FSHORT'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(532): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(532): error C2378: 'WORD' : nueva definición; no se puede sobrecargar el símbolo con typedef
+                 c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\protocolo.h(9) : vea la declaración de 'WORD'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(532): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(606): error C2146: error de sintaxis : falta ';' delante del identificador 'LANGID'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(606): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(606): error C2378: 'WORD' : nueva definición; no se puede sobrecargar el símbolo con typedef
+                 c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\protocolo.h(9) : vea la declaración de 'WORD'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(606): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2064): error C2146: error de sintaxis : falta ';' delante del identificador 'ControlWord'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2064): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2064): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2065): error C2146: error de sintaxis : falta ';' delante del identificador 'StatusWord'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2065): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2065): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2068): error C2146: error de sintaxis : falta ';' delante del identificador 'ErrorOpcode'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2068): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2068): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2070): error C2146: error de sintaxis : falta ';' delante del identificador 'ErrorSelector'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2070): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2070): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2071): error C2146: error de sintaxis : falta ';' delante del identificador 'Reserved2'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2071): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2071): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2073): error C2146: error de sintaxis : falta ';' delante del identificador 'DataSelector'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2073): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2073): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2074): error C2146: error de sintaxis : falta ';' delante del identificador 'Reserved3'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2074): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(2074): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(3822): error C2146: error de sintaxis : falta ';' delante del identificador '__readfsword'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(3822): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(3822): error C2086: 'int WORD' : nueva definición
+                 c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\protocolo.h(9) : vea la declaración de 'WORD'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(3824): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(3824): warning C4391: 'int __readfsword(DWORD)' : tipo incorrecto de valor devuelto para la función intrínseca, se esperaba 'unsigned short'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(3840): error C2061: error de sintaxis : identificador 'WORD'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(3841): warning C4392: 'void __writefsword(DWORD)' : número incorrecto de argumentos para la función intrínseca, se esperaban '2' argumentos
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(3850): warning C4391: 'int __readfsword(DWORD)' : tipo incorrecto de valor devuelto para la función intrínseca, se esperaba 'unsigned short'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(3853): warning C4392: 'void __writefsword(DWORD)' : número incorrecto de argumentos para la función intrínseca, se esperaban '2' argumentos
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(3881): error C2061: error de sintaxis : identificador 'WORD'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(3882): warning C4392: 'void __addfsword(DWORD)' : número incorrecto de argumentos para la función intrínseca, se esperaban '2' argumentos
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(3898): warning C4392: 'void __addfsword(DWORD)' : número incorrecto de argumentos para la función intrínseca, se esperaban '2' argumentos
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(4291): error C2146: error de sintaxis : falta ';' delante del identificador 'LimitLow'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(4291): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(4291): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(4292): error C2146: error de sintaxis : falta ';' delante del identificador 'BaseLow'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(4292): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(4292): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(6289): error C2146: error de sintaxis : falta ';' delante del identificador 'LimitLow'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(6289): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(6289): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(6290): error C2146: error de sintaxis : falta ';' delante del identificador 'BaseLow'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(6290): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(6290): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7094): error C2146: error de sintaxis : falta ';' delante del identificador 'AclSize'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7094): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7094): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7095): error C2146: error de sintaxis : falta ';' delante del identificador 'AceCount'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7095): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7095): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7096): error C2146: error de sintaxis : falta ';' delante del identificador 'Sbz2'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7096): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7096): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7124): error C2146: error de sintaxis : falta ';' delante del identificador 'AceSize'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7124): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7124): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7451): error C2146: error de sintaxis : falta ';' delante del identificador 'SECURITY_DESCRIPTOR_CONTROL'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7451): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7451): error C2378: 'WORD' : nueva definición; no se puede sobrecargar el símbolo con typedef
+                 c:\users\ines\documents\visual studio 2010\projects\servidor_udp\servidor_udp\protocolo.h(9) : vea la declaración de 'WORD'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7451): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7451): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7544): error C2146: error de sintaxis : falta ';' delante del identificador 'Control'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7544): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7544): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7554): error C2146: error de sintaxis : falta ';' delante del identificador 'Control'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7554): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7554): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7612): error C2146: error de sintaxis : falta ';' delante del identificador 'Level'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7612): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7612): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7613): error C2146: error de sintaxis : falta ';' delante del identificador 'Sbz'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7613): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(7613): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(8602): error C2146: error de sintaxis : falta ';' delante del identificador 'LineSize'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(8602): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(8602): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(8625): error C2146: error de sintaxis : falta ';' delante del identificador 'GroupCount'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(8625): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(8625): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(8638): error C2146: error de sintaxis : falta ';' delante del identificador 'LineSize'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(8638): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(8638): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(8653): error C2146: error de sintaxis : falta ';' delante del identificador 'MaximumGroupCount'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(8653): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(8653): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(8654): error C2146: error de sintaxis : falta ';' delante del identificador 'ActiveGroupCount'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(8654): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(8654): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(9006): error C2146: error de sintaxis : falta ';' delante del identificador 'ReparseDataLength'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(9006): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(9006): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(9007): error C2146: error de sintaxis : falta ';' delante del identificador 'Reserved'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(9007): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(9007): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10589): error C2146: error de sintaxis : falta ';' delante del identificador 'Revision'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10589): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10589): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10591): error C2146: error de sintaxis : falta ';' delante del identificador 'AsWORD'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10591): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10591): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10593): error C2146: error de sintaxis : falta ';' delante del identificador 'AllowScaling'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10593): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10593): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10594): error C2146: error de sintaxis : falta ';' delante del identificador 'Disabled'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10594): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10594): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10595): error C2146: error de sintaxis : falta ';' delante del identificador 'Reserved'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10595): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10595): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10794): error C2146: error de sintaxis : falta ';' delante del identificador 'e_magic'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10794): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10794): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10795): error C2146: error de sintaxis : falta ';' delante del identificador 'e_cblp'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10795): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10795): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10796): error C2146: error de sintaxis : falta ';' delante del identificador 'e_cp'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10796): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10796): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10797): error C2146: error de sintaxis : falta ';' delante del identificador 'e_crlc'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10797): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10797): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10798): error C2146: error de sintaxis : falta ';' delante del identificador 'e_cparhdr'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10798): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10798): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10799): error C2146: error de sintaxis : falta ';' delante del identificador 'e_minalloc'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10799): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10799): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10800): error C2146: error de sintaxis : falta ';' delante del identificador 'e_maxalloc'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10800): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10800): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10801): error C2146: error de sintaxis : falta ';' delante del identificador 'e_ss'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10801): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10801): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10802): error C2146: error de sintaxis : falta ';' delante del identificador 'e_sp'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10802): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10802): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10803): error C2146: error de sintaxis : falta ';' delante del identificador 'e_csum'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10803): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10803): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10804): error C2146: error de sintaxis : falta ';' delante del identificador 'e_ip'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10804): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10804): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10805): error C2146: error de sintaxis : falta ';' delante del identificador 'e_cs'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10805): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10805): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10806): error C2146: error de sintaxis : falta ';' delante del identificador 'e_lfarlc'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10806): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10806): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10807): error C2146: error de sintaxis : falta ';' delante del identificador 'e_ovno'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10807): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10807): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10808): error C2146: error de sintaxis : falta ';' delante del identificador 'e_res'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10808): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10808): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10809): error C2146: error de sintaxis : falta ';' delante del identificador 'e_oemid'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10809): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10809): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10810): error C2146: error de sintaxis : falta ';' delante del identificador 'e_oeminfo'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10810): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10810): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10811): error C2146: error de sintaxis : falta ';' delante del identificador 'e_res2'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10811): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10811): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10816): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_magic'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10816): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10816): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10819): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_enttab'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10819): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10819): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10820): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_cbenttab'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10820): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10820): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10822): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_flags'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10822): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10822): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10823): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_autodata'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10823): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10823): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10824): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_heap'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10824): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10824): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10825): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_stack'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10825): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10825): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10828): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_cseg'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10828): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10828): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10829): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_cmod'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10829): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10829): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10830): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_cbnrestab'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10830): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10830): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10831): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_segtab'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10831): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10831): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10832): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_rsrctab'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10832): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10832): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10833): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_restab'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10833): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10833): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10834): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_modtab'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10834): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10834): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10835): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_imptab'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10835): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10835): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10837): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_cmovent'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10837): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10837): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10838): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_align'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10838): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10838): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10839): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_cres'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10839): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10839): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10842): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_pretthunks'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10842): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10842): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10843): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_psegrefbytes'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10843): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10843): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10844): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_swaparea'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10844): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10844): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10845): error C2146: error de sintaxis : falta ';' delante del identificador 'ne_expver'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10845): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10845): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10849): error C2146: error de sintaxis : falta ';' delante del identificador 'e32_magic'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10849): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10849): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10853): error C2146: error de sintaxis : falta ';' delante del identificador 'e32_cpu'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10853): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10853): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10854): error C2146: error de sintaxis : falta ';' delante del identificador 'e32_os'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10854): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10854): error C4430: falta el especificador de tipo; se presupone int. Nota: C++ no admite default-int
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10898): error C2146: error de sintaxis : falta ';' delante del identificador 'e32_devid'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(10898): fatal error C1003: el recuento de errores supera 100; se detiene la compilación
+     1>Compilación del proyecto terminada "C:\Users\ines\Documents\Visual Studio 2010\Projects\servidor_udp\servidor_udp\servidor_udp.vcxproj" (build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:02.49

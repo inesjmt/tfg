@@ -1,0 +1,398 @@
+﻿Compilación iniciada a las 19/04/2017 10:55:07.
+     1>Proyecto "C:\Users\ines\Documents\Visual Studio 2010\Projects\cliente_udp\cliente_udp\cliente_udp.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Aplicando tarea Touch a "Debug\cliente_udp.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\ines\Desktop\T\lib\2010 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt cliente_main.cpp cliente_udp.cpp
+         cliente_udp.cpp
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(91): warning C4005: 'AF_IPX' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(460) : vea la definición anterior de 'AF_IPX'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(131): warning C4005: 'AF_MAX' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(479) : vea la definición anterior de 'AF_MAX'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(168): warning C4005: 'SO_DONTLINGER' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(402) : vea la definición anterior de 'SO_DONTLINGER'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(212): error C2011: 'sockaddr' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(485) : vea la declaración de 'sockaddr'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(390): error C2059: error de sintaxis : 'constante'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(390): error C3805: 'constante': símbolo (token) inesperado; se esperaba '}' o ','
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(524): warning C4005: 'IN_CLASSA' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(287) : vea la definición anterior de 'IN_CLASSA'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(530): warning C4005: 'IN_CLASSB' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(293) : vea la definición anterior de 'IN_CLASSB'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(536): warning C4005: 'IN_CLASSC' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(299) : vea la definición anterior de 'IN_CLASSC'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(547): warning C4005: 'INADDR_ANY' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(304) : vea la definición anterior de 'INADDR_ANY'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(549): warning C4005: 'INADDR_BROADCAST' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(306) : vea la definición anterior de 'INADDR_BROADCAST'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(583): error C2011: 'sockaddr_in' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(312) : vea la declaración de 'sockaddr_in'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(132): error C2011: 'fd_set' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(68) : vea la declaración de 'fd_set'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(167): warning C4005: 'FD_SET' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(102) : vea la definición anterior de 'FD_SET'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(176): error C2011: 'timeval' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(111) : vea la declaración de 'timeval'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(232): error C2011: 'hostent' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(167) : vea la declaración de 'hostent'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(245): error C2011: 'netent' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(180) : vea la declaración de 'netent'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(252): error C2011: 'servent' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(187) : vea la declaración de 'servent'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(264): error C2011: 'protoent' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(199) : vea la declaración de 'protoent'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(360): error C2011: 'WSAData' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(322) : vea la declaración de 'WSAData'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(458): error C2011: 'sockproto' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(494) : vea la declaración de 'sockproto'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(500): error C2011: 'linger' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(531) : vea la declaración de 'linger'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(513): warning C4005: 'SOMAXCONN' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(544) : vea la definición anterior de 'SOMAXCONN'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(542): warning C4005: 'FD_READ' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(562) : vea la definición anterior de 'FD_READ'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(545): warning C4005: 'FD_WRITE' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(563) : vea la definición anterior de 'FD_WRITE'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(548): warning C4005: 'FD_OOB' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(564) : vea la definición anterior de 'FD_OOB'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(551): warning C4005: 'FD_ACCEPT' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(565) : vea la definición anterior de 'FD_ACCEPT'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(554): warning C4005: 'FD_CONNECT' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(566) : vea la definición anterior de 'FD_CONNECT'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(557): warning C4005: 'FD_CLOSE' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(567) : vea la definición anterior de 'FD_CLOSE'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1578): error C2375: accept' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(742) : vea la declaración de 'accept'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1600): error C2375: bind' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(747) : vea la declaración de 'bind'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1619): error C2375: closesocket' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(752) : vea la declaración de 'closesocket'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1638): error C2375: connect' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(754) : vea la declaración de 'connect'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1659): error C2375: ioctlsocket' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(759) : vea la declaración de 'ioctlsocket'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1680): error C2375: getpeername' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(764) : vea la declaración de 'getpeername'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1701): error C2375: getsockname' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(769) : vea la declaración de 'getsockname'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1724): error C2375: getsockopt' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(774) : vea la declaración de 'getsockopt'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1745): error C2375: htonl' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(781) : vea la declaración de 'htonl'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1762): error C2375: htons' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(783) : vea la declaración de 'htons'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1780): error C2375: inet_addr' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(785) : vea la declaración de 'inet_addr'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1797): error C2375: inet_ntoa' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(787) : vea la declaración de 'inet_ntoa'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1815): error C2375: listen' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(789) : vea la declaración de 'listen'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1833): error C2375: ntohl' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(793) : vea la declaración de 'ntohl'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1850): error C2375: ntohs' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(795) : vea la declaración de 'ntohs'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1870): error C2375: recv' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(797) : vea la declaración de 'recv'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1895): error C2375: recvfrom' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(803) : vea la declaración de 'recvfrom'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1921): error C2375: select' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(811) : vea la declaración de 'select'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1945): error C2375: send' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(818) : vea la declaración de 'send'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1970): error C2375: sendto' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(824) : vea la declaración de 'sendto'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1996): error C2375: setsockopt' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(832) : vea la declaración de 'setsockopt'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2018): error C2375: shutdown' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(839) : vea la declaración de 'shutdown'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2039): error C2375: socket' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(843) : vea la declaración de 'socket'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2063): error C2375: gethostbyaddr' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(850) : vea la declaración de 'gethostbyaddr'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2083): error C2375: gethostbyname' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(855) : vea la declaración de 'gethostbyname'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2101): error C2375: gethostname' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(857) : vea la declaración de 'gethostname'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2121): error C2375: getservbyport' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(861) : vea la declaración de 'getservbyport'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2141): error C2375: getservbyname' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(865) : vea la declaración de 'getservbyname'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2160): error C2375: getprotobynumber' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(869) : vea la declaración de 'getprotobynumber'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2178): error C2375: getprotobyname' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(871) : vea la declaración de 'getprotobyname'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2200): error C2375: WSAStartup' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(875) : vea la declaración de 'WSAStartup'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2219): error C2375: WSACleanup' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(879) : vea la declaración de 'WSACleanup'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2236): error C2375: WSASetLastError' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(881) : vea la declaración de 'WSASetLastError'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2253): error C2375: WSAGetLastError' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(883) : vea la declaración de 'WSAGetLastError'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2270): error C2375: WSAIsBlocking' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(885) : vea la declaración de 'WSAIsBlocking'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2287): error C2375: WSAUnhookBlockingHook' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(887) : vea la declaración de 'WSAUnhookBlockingHook'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2304): error C2375: WSASetBlockingHook' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(889) : vea la declaración de 'WSASetBlockingHook'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2321): error C2375: WSACancelBlockingCall' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(891) : vea la declaración de 'WSACancelBlockingCall'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2343): error C2375: WSAAsyncGetServByName' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(893) : vea la declaración de 'WSAAsyncGetServByName'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2370): error C2375: WSAAsyncGetServByPort' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(901) : vea la declaración de 'WSAAsyncGetServByPort'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2396): error C2375: WSAAsyncGetProtoByName' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(909) : vea la declaración de 'WSAAsyncGetProtoByName'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2421): error C2375: WSAAsyncGetProtoByNumber' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(916) : vea la declaración de 'WSAAsyncGetProtoByNumber'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2446): error C2375: WSAAsyncGetHostByName' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(923) : vea la declaración de 'WSAAsyncGetHostByName'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2473): error C2375: WSAAsyncGetHostByAddr' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(930) : vea la declaración de 'WSAAsyncGetHostByAddr'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2496): error C2375: WSACancelAsyncRequest' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(939) : vea la declaración de 'WSACancelAsyncRequest'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2517): error C2375: WSAAsyncSelect' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(941) : vea la declaración de 'WSAAsyncSelect'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\protocolo.h(27): warning C4005: 'MessageBox' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winuser.h(7526) : vea la definición anterior de 'MessageBox'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\protocolo.h(36): error C2373: 'LPSTR' : nueva definición; modificadores de tipo distintos
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(421) : vea la declaración de 'LPSTR'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\protocolo.h(46): warning C4273: 'GetWindowTextA' : vinculación de DLL incoherente
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winuser.h(7332) : vea la definición anterior de 'GetWindowTextA'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\protocolo.h(47): warning C4273: 'GetWindowTextW' : vinculación de DLL incoherente
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winuser.h(7339) : vea la definición anterior de 'GetWindowTextW'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\protocolo.h(64): error C2079: 'wsaData' utiliza struct 'WSAData' sin definir
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(26): error C2079: 'dst' utiliza struct 'sockaddr_in' sin definir
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(26): error C2079: 'local_addr' utiliza struct 'sockaddr_in' sin definir
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(26): error C2079: 'input_in' utiliza struct 'sockaddr_in' sin definir
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(51): error C2440: '=' : no se puede realizar la conversión de 'int (__stdcall *)(WORD,LPWSADATA)' a 'int'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(51): error C2440: '=' : no se puede realizar la conversión de 'int (__stdcall *)(WORD,LPWSADATA)' a 'int'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(51): error C3861: 'WSAStartup': no se encontró el identificador
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(55): error C2228: el operando izquierdo de '.wVersion' debe tener class/struct/union
+                 el tipo es 'int'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(55): error C2228: el operando izquierdo de '.wVersion' debe tener class/struct/union
+                 el tipo es 'int'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(57): error C3861: 'WSACleanup': no se encontró el identificador
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(62): error C2440: '=' : no se puede realizar la conversión de 'SOCKET (__stdcall *)(int,int,int)' a 'SOCKET'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(62): error C2440: '=' : no se puede realizar la conversión de 'SOCKET (__stdcall *)(int,int,int)' a 'SOCKET'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(62): error C3861: 'socket': no se encontró el identificador
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(81): error C3861: 'gethostname': no se encontró el identificador
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(82): error C2440: '=' : no se puede realizar la conversión de 'hostent *(__stdcall *)(const char *)' a 'hostent *'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(82): error C2440: '=' : no se puede realizar la conversión de 'hostent *(__stdcall *)(const char *)' a 'hostent *'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(82): error C3861: 'gethostbyname': no se encontró el identificador
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(85): error C2228: el operando izquierdo de '.sin_family' debe tener class/struct/union
+                 el tipo es 'int'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(86): warning C4244: 'argumento' : conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(87): error C2228: el operando izquierdo de '.sin_port' debe tener class/struct/union
+                 el tipo es 'int'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(87): error C3861: 'htons': no se encontró el identificador
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(88): error C2228: el operando izquierdo de '.sin_addr' debe tener class/struct/union
+                 el tipo es 'int'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(88): error C2228: el operando izquierdo de '.S_un' debe tener class/struct/union
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(88): error C2228: el operando izquierdo de '.S_addr' debe tener class/struct/union
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(88): error C3861: 'inet_addr': no se encontró el identificador
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(94): error C2446: ==' : no hay conversión de 'int' en 'int (__stdcall *)(SOCKET,const sockaddr *,int)'
+                 La conversión de un tipo integral a un tipo de puntero requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(94): error C2040: '== : 'int (__stdcall *)(SOCKET,const sockaddr *,int)' se diferencia en los niveles de direccionamiento indirecto de 'int'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(94): error C3861: 'bind': no se encontró el identificador
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(107): error C2446: ==' : no hay conversión de 'int' en 'int (__stdcall *)(SOCKET,long,u_long *)'
+                 La conversión de un tipo integral a un tipo de puntero requiere reinterpret_cast, conversión de estilo de C o conversión de estilo de función
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(107): error C2040: '== : 'int (__stdcall *)(SOCKET,long,u_long *)' se diferencia en los niveles de direccionamiento indirecto de 'int'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(107): error C3861: 'ioctlsocket': no se encontró el identificador
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(123): error C2228: el operando izquierdo de '.sin_family' debe tener class/struct/union
+                 el tipo es 'int'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(124): warning C4244: 'argumento' : conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(125): error C2228: el operando izquierdo de '.sin_port' debe tener class/struct/union
+                 el tipo es 'int'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(125): error C3861: 'htons': no se encontró el identificador
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(126): error C2228: el operando izquierdo de '.sin_addr' debe tener class/struct/union
+                 el tipo es 'int'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(126): error C2228: el operando izquierdo de '.S_un' debe tener class/struct/union
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(126): error C2228: el operando izquierdo de '.S_addr' debe tener class/struct/union
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(126): error C3861: 'inet_addr': no se encontró el identificador
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(139): error C2440: '=' : no se puede realizar la conversión de 'int (__stdcall *)(SOCKET,const char *,int,int,const sockaddr *,int)' a 'int'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(139): error C2440: '=' : no se puede realizar la conversión de 'int (__stdcall *)(SOCKET,const char *,int,int,const sockaddr *,int)' a 'int'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(139): error C3861: 'sendto': no se encontró el identificador
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(145): error C2440: '=' : no se puede realizar la conversión de 'int (__stdcall *)(SOCKET,char *,int,int,sockaddr *,int *)' a 'int'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_udp.cpp(145): fatal error C1003: el recuento de errores supera 100; se detiene la compilación
+         cliente_main.cpp
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(91): warning C4005: 'AF_IPX' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(460) : vea la definición anterior de 'AF_IPX'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(131): warning C4005: 'AF_MAX' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(479) : vea la definición anterior de 'AF_MAX'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(168): warning C4005: 'SO_DONTLINGER' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(402) : vea la definición anterior de 'SO_DONTLINGER'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(212): error C2011: 'sockaddr' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(485) : vea la declaración de 'sockaddr'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(390): error C2059: error de sintaxis : 'constante'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(390): error C3805: 'constante': símbolo (token) inesperado; se esperaba '}' o ','
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(524): warning C4005: 'IN_CLASSA' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(287) : vea la definición anterior de 'IN_CLASSA'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(530): warning C4005: 'IN_CLASSB' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(293) : vea la definición anterior de 'IN_CLASSB'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(536): warning C4005: 'IN_CLASSC' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(299) : vea la definición anterior de 'IN_CLASSC'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(547): warning C4005: 'INADDR_ANY' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(304) : vea la definición anterior de 'INADDR_ANY'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(549): warning C4005: 'INADDR_BROADCAST' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(306) : vea la definición anterior de 'INADDR_BROADCAST'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\ws2def.h(583): error C2011: 'sockaddr_in' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(312) : vea la declaración de 'sockaddr_in'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(132): error C2011: 'fd_set' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(68) : vea la declaración de 'fd_set'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(167): warning C4005: 'FD_SET' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(102) : vea la definición anterior de 'FD_SET'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(176): error C2011: 'timeval' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(111) : vea la declaración de 'timeval'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(232): error C2011: 'hostent' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(167) : vea la declaración de 'hostent'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(245): error C2011: 'netent' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(180) : vea la declaración de 'netent'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(252): error C2011: 'servent' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(187) : vea la declaración de 'servent'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(264): error C2011: 'protoent' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(199) : vea la declaración de 'protoent'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(360): error C2011: 'WSAData' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(322) : vea la declaración de 'WSAData'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(458): error C2011: 'sockproto' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(494) : vea la declaración de 'sockproto'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(500): error C2011: 'linger' : nueva definición del tipo 'struct'
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(531) : vea la declaración de 'linger'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(513): warning C4005: 'SOMAXCONN' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(544) : vea la definición anterior de 'SOMAXCONN'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(542): warning C4005: 'FD_READ' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(562) : vea la definición anterior de 'FD_READ'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(545): warning C4005: 'FD_WRITE' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(563) : vea la definición anterior de 'FD_WRITE'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(548): warning C4005: 'FD_OOB' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(564) : vea la definición anterior de 'FD_OOB'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(551): warning C4005: 'FD_ACCEPT' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(565) : vea la definición anterior de 'FD_ACCEPT'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(554): warning C4005: 'FD_CONNECT' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(566) : vea la definición anterior de 'FD_CONNECT'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(557): warning C4005: 'FD_CLOSE' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(567) : vea la definición anterior de 'FD_CLOSE'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1578): error C2375: accept' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(742) : vea la declaración de 'accept'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1600): error C2375: bind' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(747) : vea la declaración de 'bind'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1619): error C2375: closesocket' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(752) : vea la declaración de 'closesocket'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1638): error C2375: connect' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(754) : vea la declaración de 'connect'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1659): error C2375: ioctlsocket' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(759) : vea la declaración de 'ioctlsocket'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1680): error C2375: getpeername' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(764) : vea la declaración de 'getpeername'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1701): error C2375: getsockname' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(769) : vea la declaración de 'getsockname'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1724): error C2375: getsockopt' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(774) : vea la declaración de 'getsockopt'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1745): error C2375: htonl' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(781) : vea la declaración de 'htonl'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1762): error C2375: htons' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(783) : vea la declaración de 'htons'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1780): error C2375: inet_addr' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(785) : vea la declaración de 'inet_addr'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1797): error C2375: inet_ntoa' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(787) : vea la declaración de 'inet_ntoa'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1815): error C2375: listen' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(789) : vea la declaración de 'listen'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1833): error C2375: ntohl' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(793) : vea la declaración de 'ntohl'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1850): error C2375: ntohs' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(795) : vea la declaración de 'ntohs'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1870): error C2375: recv' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(797) : vea la declaración de 'recv'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1895): error C2375: recvfrom' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(803) : vea la declaración de 'recvfrom'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1921): error C2375: select' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(811) : vea la declaración de 'select'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1945): error C2375: send' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(818) : vea la declaración de 'send'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1970): error C2375: sendto' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(824) : vea la declaración de 'sendto'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(1996): error C2375: setsockopt' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(832) : vea la declaración de 'setsockopt'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2018): error C2375: shutdown' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(839) : vea la declaración de 'shutdown'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2039): error C2375: socket' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(843) : vea la declaración de 'socket'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2063): error C2375: gethostbyaddr' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(850) : vea la declaración de 'gethostbyaddr'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2083): error C2375: gethostbyname' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(855) : vea la declaración de 'gethostbyname'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2101): error C2375: gethostname' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(857) : vea la declaración de 'gethostname'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2121): error C2375: getservbyport' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(861) : vea la declaración de 'getservbyport'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2141): error C2375: getservbyname' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(865) : vea la declaración de 'getservbyname'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2160): error C2375: getprotobynumber' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(869) : vea la declaración de 'getprotobynumber'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2178): error C2375: getprotobyname' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(871) : vea la declaración de 'getprotobyname'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2200): error C2375: WSAStartup' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(875) : vea la declaración de 'WSAStartup'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2219): error C2375: WSACleanup' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(879) : vea la declaración de 'WSACleanup'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2236): error C2375: WSASetLastError' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(881) : vea la declaración de 'WSASetLastError'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2253): error C2375: WSAGetLastError' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(883) : vea la declaración de 'WSAGetLastError'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2270): error C2375: WSAIsBlocking' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(885) : vea la declaración de 'WSAIsBlocking'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2287): error C2375: WSAUnhookBlockingHook' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(887) : vea la declaración de 'WSAUnhookBlockingHook'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2304): error C2375: WSASetBlockingHook' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(889) : vea la declaración de 'WSASetBlockingHook'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2321): error C2375: WSACancelBlockingCall' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(891) : vea la declaración de 'WSACancelBlockingCall'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2343): error C2375: WSAAsyncGetServByName' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(893) : vea la declaración de 'WSAAsyncGetServByName'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2370): error C2375: WSAAsyncGetServByPort' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(901) : vea la declaración de 'WSAAsyncGetServByPort'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2396): error C2375: WSAAsyncGetProtoByName' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(909) : vea la declaración de 'WSAAsyncGetProtoByName'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2421): error C2375: WSAAsyncGetProtoByNumber' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(916) : vea la declaración de 'WSAAsyncGetProtoByNumber'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2446): error C2375: WSAAsyncGetHostByName' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(923) : vea la declaración de 'WSAAsyncGetHostByName'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2473): error C2375: WSAAsyncGetHostByAddr' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(930) : vea la declaración de 'WSAAsyncGetHostByAddr'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2496): error C2375: WSACancelAsyncRequest' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(939) : vea la declaración de 'WSACancelAsyncRequest'
+     1>c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock2.h(2517): error C2375: WSAAsyncSelect' : nueva definición; vinculación distinta
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winsock.h(941) : vea la declaración de 'WSAAsyncSelect'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\protocolo.h(27): warning C4005: 'MessageBox' : redefinición de macro
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winuser.h(7526) : vea la definición anterior de 'MessageBox'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\protocolo.h(36): error C2373: 'LPSTR' : nueva definición; modificadores de tipo distintos
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winnt.h(421) : vea la declaración de 'LPSTR'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\protocolo.h(46): warning C4273: 'GetWindowTextA' : vinculación de DLL incoherente
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winuser.h(7332) : vea la definición anterior de 'GetWindowTextA'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\protocolo.h(47): warning C4273: 'GetWindowTextW' : vinculación de DLL incoherente
+                 c:\program files (x86)\microsoft sdks\windows\v7.0a\include\winuser.h(7339) : vea la definición anterior de 'GetWindowTextW'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\protocolo.h(64): error C2079: 'wsaData' utiliza struct 'WSAData' sin definir
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_main.cpp(13): error C2079: 'local_addr' utiliza struct 'sockaddr_in' sin definir
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_main.cpp(13): error C2079: 'dst' utiliza struct 'sockaddr_in' sin definir
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_main.cpp(44): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_main.cpp(45): warning C4244: '=' : conversión de 'double' a 'float'; posible pérdida de datos
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_main.cpp(56): error C3861: 'sendto': no se encontró el identificador
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_main.cpp(88): error C2440: '=' : no se puede realizar la conversión de 'int (__stdcall *)(SOCKET,const char *,int,int,const sockaddr *,int)' a 'int'
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_main.cpp(88): error C2440: '=' : no se puede realizar la conversión de 'int (__stdcall *)(SOCKET,const char *,int,int,const sockaddr *,int)' a 'int'
+                 No existe un contexto en el que sea posible realizar esta conversión
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_main.cpp(88): error C3861: 'sendto': no se encontró el identificador
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_main.cpp(89): error C3861: 'closesocket': no se encontró el identificador
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_main.cpp(104): warning C4244: 'argumento' : conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_main.cpp(105): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+     1>c:\users\ines\documents\visual studio 2010\projects\cliente_udp\cliente_udp\cliente_main.cpp(106): warning C4244: '=' : conversión de 'int' a 'float'; posible pérdida de datos
+         Generando código...
+     1>Compilación del proyecto terminada "C:\Users\ines\Documents\Visual Studio 2010\Projects\cliente_udp\cliente_udp\cliente_udp.vcxproj" (build destinos) -- ERROR.
+
+ERROR al compilar.
+
+Tiempo transcurrido 00:00:02.56
