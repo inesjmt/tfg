@@ -52,7 +52,8 @@ void avanzar(int sentido) {
 		z = z_ant;
 	}
 	
-	sprintf_s(buffer,sizeof(buffer),"mover %d %d %d %d\r\n",(short)mi_id,(short)x,(short)y,(short)z);
+	// sprintf_s(buffer,sizeof(buffer),"mover %d %d %d %d\r\n",(short)mi_id,(short)x,(short)y,(short)z);
+    sprintf_s(buffer,sizeof(buffer),"mover %d %d\r\n",(short)x,(short)z);
 	sendto(sockfd,buffer,(int)strlen(buffer),0,(struct sockaddr *)&dst,sizeof(dst));
 }
 
